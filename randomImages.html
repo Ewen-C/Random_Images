@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="randomImages.css" type="text/css">
+    <script src="randomImages.js" defer></script>
+    <title>Image aléatoire</title>
+  </head>
+
+  <body>
+
+    <nav>
+      <button onclick=javascript:changeImage()>Changer l'image</button>
+      <button onclick="window.open('http://ewenc.epizy.com','_blank')">Ma page web &#128522</button>
+    </nav>
+
+    <header>
+      <h1 id="mainHeader">Image aléatoire</h1>
+    </header>
+
+    <section>
+      <h2>Concept</h2>
+      <p>
+        Cette page affiche une image de fond aléatoire parmi une 
+        sélection de 15 images, lors du chargement de la page ou 
+        quand le bouton est sélectionné. 
+      </p>
+    </section>
+
+    <aside>
+      <button id="buttonHide" onclick=javascript:cacherElements()>Cacher les éléments</button>
+    </aside>
+
+    <footer>
+      <h2>Crédits</h2>
+      <p>Page et Photographie : Ewen Celibert</p>
+      <p>
+        <span id="imageTitre"></span> <span id="imageLieu"></span> <span id="imageDate"></span>
+      </p>
+    </footer>
+    
+  </body>
+
+</html>

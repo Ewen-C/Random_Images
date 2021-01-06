@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url('randomImages/image_0.jpg'); /* Image de secours si JS désactivé */
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  text-shadow: 2px 2px 1px black;
+  text-align: center;
+  letter-spacing: 1.2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: 20%;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+aside {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 20%;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header, section, footer {
+  padding: 5px 8px 5px 8px;
+  border: 1px #DDD solid;
+  box-shadow: 2px 2px 1px black;
+  width: 55%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+  padding: 8px 6px 8px 6px;
+  display: block;
+  border: 1px #DDD solid;
+  box-shadow: 2px 2px 1px black;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 0.95em; /* default font-size for buttons : 0.8em; */
+  cursor: pointer;
+  
+  transition: 0.15s linear;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+}
+button:active  {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+}
