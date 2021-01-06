@@ -9,5 +9,5 @@ Vu que le nombre d'images pouvant être affichées est donné par le JSON et n'e
 
 ## Améliorations possibles de la page :
 
-Créer une page Gallerie affichant les images en miniature, qui s'agrandissent au clic (propriété onclick="" ?)
-Créer des transitions entre les images (balayage, fondu)
+- Créer une page Gallerie affichant les images en miniature, qui s'agrandissent au clic (propriété onclick="" ?)
+- Créer des transitions entre les images (balayage, fondu)
